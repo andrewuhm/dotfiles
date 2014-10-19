@@ -142,3 +142,21 @@ alias reload="exec $SHELL -l"
 
 # Faster npm for Europeans
 command -v npm > /dev/null && alias npme="npm --registry http://registry.npmjs.eu/"
+
+# Gamblit specific aliases
+alias code="cd ~/dev/src"
+alias ssaws="ssh -i ~/.ssh/Gamblit-Oregon.pem ec2-user@54.200.222.13"
+alias ssdev="ssh dev-andrew"
+alias sgdev="ssh gamblit@dev-andrew"
+alias mci="mvn clean install -Dmaven.test.skip -U"
+alias gs='git status '
+alias ga='git add '
+alias gb='git branch '
+alias gc='git commit'
+alias gd='git diff'
+alias gk='gitk --all&'
+alias gx='gitx --all'
+
+alias got='git '
+alias get='git '
+alias vi='vim '
