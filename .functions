@@ -286,3 +286,15 @@ __has_parent_dir () {
 
     return 1;
 }
+
+__vcs_name() {
+     if [ -d .svn ]; then
+          echo " [svn]";
+     elif [ -d RCS ];      then
+          echo " [RCS]";
+    elif __has_parent_dir ".hg"; then
+        echo " [hg $(hg branch)]"
+     fi
+}
+
+
