@@ -1,4 +1,5 @@
-# Mathias’s dotfiles
+# Andrew Uhm's dotfiles, forked from https://github.com/mathiasbynens/dotfiles
+# Ma#thias’s dotfiles
 
 ![Screenshot of my shell prompt](http://i.imgur.com/EkEtphC.png)
 
